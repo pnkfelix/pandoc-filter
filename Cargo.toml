@@ -1,0 +1,17 @@
+[package]
+name = "pandoc-filter"
+version = "0.1.0"
+authors = ["Felix S. Klock II <pnkfelix@pnkfx.org>"]
+
+build = "tango-build.rs"
+
+[build-dependencies]
+tango = "0.5.0"
+
+[dependencies]
+pandoc = "0.4.*"
+pandoc_ast = "0.3.*"
+rustc-serialize = "0.3.*"
+
+[lib]
+name = "pandoc_filter"
